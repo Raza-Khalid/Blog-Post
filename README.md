@@ -59,7 +59,7 @@ About Page
 **_Future Updates_**
 
 - [x] Integrate a UI Library
-- [x] 
+- [x] add upload
 - [x] 
 - [x] 
 - [x] 
