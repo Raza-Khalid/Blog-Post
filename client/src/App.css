@@ -1,3 +1,11 @@
+
+
+* {
+  text-align: center;
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+}
+
 body {
   background:wheat; 
   font-family: 'Oswald', sans-serif;
@@ -7,4 +15,12 @@ body {
   width: 90%;
   margin:0 auto;
   border: 1px solid black
+}
+
+.nav-links{
+  display: flex;
+  margin: 2em;
+  padding: 2em;
+  border-radius: 12.5px;
+  justify-content:space-evenly;
 }
