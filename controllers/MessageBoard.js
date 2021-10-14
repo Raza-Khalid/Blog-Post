@@ -1,9 +1,9 @@
-const { MessageBoard } = require('./../models')
+const {MessageBoard} = require ("../models")
 
 const GetMessage = async (req, res) => {
   try {
-    const message = await MessageBoard.findAll()
-    res.send(message)
+    const messages = await MessageBoard.findAll()
+    res.send(messages)
   } catch (error) {
     throw error
   }
