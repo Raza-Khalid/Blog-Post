@@ -16,7 +16,7 @@ function UpdateMessage() {
   const getContent = async () => {
     try {
       let res = await axios.get(`${BASE_URL}/message_board/`)
-      console.log(res.data)
+      console.log(res.data) 
       setContent(res.data)
     } catch (error) {
       throw error

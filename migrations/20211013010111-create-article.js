@@ -11,6 +11,22 @@ module.exports = {
       title: {
         type: Sequelize.STRING
       },
+      userId: {
+        type: Sequelize.INTEGER
+        // onDelete: 'CASCADE',
+        // references: {
+        //   model: 'users',
+        //   key: 'id'
+        // }
+      },
+      commentId: {
+        type: Sequelize.INTEGER,
+        onDelete: 'CASCADE',
+        references: {
+          model: 'comments',
+          key: 'id'
+        }
+      },
       content: {
         type: Sequelize.STRING
       },
