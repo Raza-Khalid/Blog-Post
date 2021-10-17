@@ -1,6 +1,6 @@
-# Project-4
+# Post Blog
 
-# ![Project 4](image goes here!)
+# ![Post Blog](https://i.imgur.com/KU3JqT3.png)
 
 ## Date: 10/9/2021
 
@@ -24,7 +24,6 @@ Post Blog is a simple paltform where you can write short blogs. Share your feeli
 - React
 - Node.js
 - Sequelize
-- Heroku
 ---
 
 **_Getting Started_**
