@@ -1,28 +1,122 @@
 
 * {
   text-align: center;
-  box-sizing:border-box;
+  box-sizing:unset;
   font-family: 'Oswald', sans-serif;
 }
 
 body {
-  background:wheat; 
-  font-family: 'Oswald', sans-serif;
+  background: -webkit-linear-gradient(to right, #f8b500, #fceabb);
+  background: linear-gradient(to right, #f8b500, #fceabb); 
+  background-repeat:repeat;
+  font-family: 'Oswald', sans-serif;  
 }
 
 .App {
-  width: 90%;
+  width: 100%;
   margin:0 auto;
   border: 1px solid black
 }
 
-.nav-links{
-  display: flex;
-  margin: 2em;
-  padding: 2em;
-  border-radius: 12.5px;
-  justify-content:space-evenly;
-  font-family: 'Oswald', sans-serif;
 
+
+header {
+background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+width: 100%;
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+}
+button {
+  font-size: 14px;
+  font-weight: bold;
+}
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.right-top-nav {
+  margin-top: 1%;
+  display: flex;
+  width: auto;
+}
+.right-top-nav button {
+  width: 5em;
+  height: 2em;
+  margin: 0 5px;
+  border-radius: 12.5px;
+}
+.right-top-nav a {
+  width: 5em;
+  height: 2em;
+  margin: 0px;
+  border-radius: 13px;
+  padding: 0.7em;
 }
 
+.sign-but {
+  background-color: #f8b500;
+  color: white;
+  justify-content:inherit
+}
+.sign-but:hover {
+  background-color: white;
+  color: #f8b500;
+}
+
+.log-but {
+  background-color: #f8b500;
+  color: white;
+}
+.log-but:hover {
+  background-color: white;
+  color: #f8b500;
+}
+
+.bottom-nav {
+  width: 100%;
+  margin: auto;
+  padding-bottom: 1em;
+}
+.right-bottom-nav {
+  width: 100%;
+  margin-top: -6em;
+  margin-bottom: 2em;
+}
+.right-bottom-nav a {
+  margin: 4%;
+  padding: 0.5em;
+  border-radius: 12.5px;
+}
+.right-bottom-nav a:hover {
+  background-color: #222222;
+}
+
+
+.paragraph-one {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  border-radius: 15px;
+  justify-content:center;
+  padding: 20px;
+  margin: 25px;
+  width:500px;
+  cursor: pointer;
+  background: #bdc3c7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-top-left-radius : 30px;
+  border-bottom-right-radius : 30px;
+  transition: all 0.2s;    
+  overflow-x: auto;
+  overflow-y: auto;
+  font-weight: bold;
+  color: black;
+} 

@@ -1,5 +1,24 @@
 const { User } = require('../models')
 
+const Login = async (req, res) => {
+  try {
+    const user = await User.findOne({
+      where: { userName: req.body.userName },
+      raw: true
+    })
+    {
+      let payload = {
+        id: user.id,
+        userName: user.userName
+      }
+      return res.send({ user: payload })
+    }
+    // res.status(401).send({ status: 'Error', msg: 'Unauthorized' })
+  } catch (error) {
+    throw error
+  }
+}
+
 const GetUser = async (req, res) => {
   try {
     const users = await User.findAll()
@@ -8,15 +27,6 @@ const GetUser = async (req, res) => {
     throw error
   }
 }
-
-// const GetUserProfile = async (req, res) => {
-//   try {
-//     const user = await User.findByPk(req.params.user_id)
-//     res.send(user)
-//   } catch (error) {
-//     throw error
-//   }
-// }
 
 const CreateUser = async (req, res) => {
   try {
@@ -57,5 +67,6 @@ module.exports = {
   GetUser,
   CreateUser,
   UpdateUser,
-  DeleteUser
+  DeleteUser,
+  Login
 }

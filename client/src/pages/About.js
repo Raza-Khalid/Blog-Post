@@ -37,6 +37,79 @@ export default function About() {
         reprehenderit optio facere architecto laborum culpa ipsam porro
         molestiae eius inventore. Fuga.
       </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nam
+        molestias facilis doloremque, ea atque laboriosam dolore, maiores,
+        reprehenderit optio facere architecto laborum culpa ipsam porro
+        molestiae eius inventore. Fuga.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nam
+        molestias facilis doloremque, ea atque laboriosam dolore, maiores,
+        reprehenderit optio facere architecto laborum culpa ipsam porro
+        molestiae eius inventore. Fuga.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nam
+        molestias facilis doloremque, ea atque laboriosam dolore, maiores,
+        reprehenderit optio facere architecto laborum culpa ipsam porro
+        molestiae eius inventore. Fuga.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nam
+        molestias facilis doloremque, ea atque laboriosam dolore, maiores,
+        reprehenderit optio facere architecto laborum culpa ipsam porro
+        molestiae eius inventore. Fuga.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nam
+        molestias facilis doloremque, ea atque laboriosam dolore, maiores,
+        reprehenderit optio facere architecto laborum culpa ipsam porro
+        molestiae eius inventore. Fuga.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nam
+        molestias facilis doloremque, ea atque laboriosam dolore, maiores,
+        reprehenderit optio facere architecto laborum culpa ipsam porro
+        molestiae eius inventore. Fuga.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nam
+        molestias facilis doloremque, ea atque laboriosam dolore, maiores,
+        reprehenderit optio facere architecto laborum culpa ipsam porro
+        molestiae eius inventore. Fuga.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nam
+        molestias facilis doloremque, ea atque laboriosam dolore, maiores,
+        reprehenderit optio facere architecto laborum culpa ipsam porro
+        molestiae eius inventore. Fuga.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nam
+        molestias facilis doloremque, ea atque laboriosam dolore, maiores,
+        reprehenderit optio facere architecto laborum culpa ipsam porro
+        molestiae eius inventore. Fuga.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nam
+        molestias facilis doloremque, ea atque laboriosam dolore, maiores,
+        reprehenderit optio facere architecto laborum culpa ipsam porro
+        molestiae eius inventore. Fuga.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nam
+        molestias facilis doloremque, ea atque laboriosam dolore, maiores,
+        reprehenderit optio facere architecto laborum culpa ipsam porro
+        molestiae eius inventore. Fuga.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nam
+        molestias facilis doloremque, ea atque laboriosam dolore, maiores,
+        reprehenderit optio facere architecto laborum culpa ipsam porro
+        molestiae eius inventore. Fuga.
+      </p>
+
     </main>
   )
 }
