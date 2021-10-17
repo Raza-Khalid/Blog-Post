@@ -55,15 +55,11 @@ Sign Up Page
 **_Future Updates_**
 
 - [x] Integrate a UI Library
-- [x] add upload
-- [x] 
-- [x] 
-- [x] 
+- [x] add upload image option
+- [x] add authorization
 
 ---
 
 **_Credits_**
-
-#### Inspiration: 
 
 #### Pictures: [Google Images](https://google.com)
